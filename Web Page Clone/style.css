@@ -1,0 +1,160 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+
+.container{
+    height: 100vh;
+    width: 100%;
+    padding: 0 50px 0 50px;
+    background-image: url('assets/background-image.png');
+    background-size:cover;  
+  
+    
+}
+
+.nav{
+    background: transparent;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    height: 20px;
+
+}
+
+.nav ul{
+    padding-top: 20px;
+}
+.nav li{
+    display: inline;
+    margin: 10px;
+    margin-top: 10px;
+}
+
+.search {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.search button{
+    background-color: #ed1682;
+    width: 80px;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    margin-left: 10px;
+    color: white;
+    cursor: pointer;
+
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 70%; 
+}
+
+.left{
+    width: 50%; 
+}
+.left h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+
+.left p{
+    font-size: 20px;
+    color: gray;
+}
+
+.left button{
+    height: 40px;
+    width: auto;
+    padding: 0 20px;
+    margin: 30px 10px 0 0;
+    background-color: white;
+    border: 2px solid #ed1682;
+    color: #ed1682;
+    border-radius: 5px;
+}
+.left .apply{
+    background-color: #ed1682;
+    color: white;
+}
+
+.social-links{
+    margin-top: 100px;
+    
+}
+ .social-links ul{
+    display: flex;
+ }
+
+ .social-links li{
+    margin: 5px;
+ }
+
+ .social-links li span{
+    font-size: 22px;
+ }
+
+
+
+.right{
+    background: transparent;
+    width: 50%;
+
+}
+.right img{
+    margin-left: 60px;
+   height: 530px;
+}
+
+.car,.home{
+    position: absolute;
+    left: 600px;
+    top: 90px;
+    height: 40px;
+    width: 140px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px black ;
+    background-color: white;
+    padding: 5px;
+}
+.car span{
+    position: absolute;
+    top: 12px;
+    margin-left: 10px;
+
+}
+.home span{
+    position: absolute;
+    top: 12px;
+    margin-left: 10px;
+
+}
+
+
+.car::before{
+    content: url("assets/car.png");
+    margin-right: 5px;
+}
+.home::before{
+    content: url("assets/House.png");
+    margin-right: 5px;
+}
+
+.home{
+    left: 1000px;
+    top: 200px;
+}
+
